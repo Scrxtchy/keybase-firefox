@@ -21,12 +21,10 @@ simple hack to get it working (Perhaps, this goes untested. Made entirely off th
 	~/Library/Application Support/Mozilla/NativeMessagingHosts/io.keybase.kbnm.json
 	```
 
-	* Windows
+	* Windows - Have the default value of this key point to `\path\to\keybase\kbnm.json`
 
 	```
 	HKEY_CURRENT_USER\SOFTWARE\Mozilla\NativeMessagingHosts\io.keybase.kbnm
 	```
-
-		* Have the default value of this key point to `\path\to\keybase\kbnm.json`
 
 	For more information, check this article on MDN; https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Native_messaging
