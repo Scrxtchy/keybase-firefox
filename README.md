@@ -6,25 +6,25 @@ simple hack to get it working (Perhaps, this goes untested. Made entirely off th
 	* Linux
 
 	```
-	/usr/lib/mozilla/native-messaging-hosts/io.keybase.kbnm.json
+	/usr/lib/mozilla/native-messaging-hosts/Keybase
 	-- OR --
-	/usr/lib64/mozilla/native-messaging-hosts/io.keybase.kbnm.json
+	/usr/lib64/mozilla/native-messaging-hosts/Keybase
 	-- OR --
-	~/.mozilla/native-messaging-hosts/io.keybase.kbnm.json
+	~/.mozilla/native-messaging-hosts/Keybase
 	```
 
 	* OSX
 
 	```
-	/Library/Application Support/Mozilla/NativeMessagingHosts/io.keybase.kbnm.json
+	/Library/Application Support/Mozilla/NativeMessagingHosts/Keybase
 	-- OR -- 
-	~/Library/Application Support/Mozilla/NativeMessagingHosts/io.keybase.kbnm.json
+	~/Library/Application Support/Mozilla/NativeMessagingHosts/Keybase
 	```
 
 	* Windows - Have the default value of this key point to `\path\to\keybase\kbnm.json`
 
 	```
-	HKEY_CURRENT_USER\SOFTWARE\Mozilla\NativeMessagingHosts\io.keybase.kbnm
+	HKEY_CURRENT_USER\SOFTWARE\Mozilla\NativeMessagingHosts\Keybase
 	```
 
 	For more information, check this article on MDN; https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Native_messaging
