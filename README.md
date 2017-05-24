@@ -28,3 +28,10 @@ simple hack to get it working (Perhaps, this goes untested. Made entirely off th
 	```
 
 	For more information, check this article on MDN; https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Native_messaging
+
+## Debugging
+
+If there's anything that's not working, you can get JS logs by opening up the extension with firefox's debugger  
+This is found at `about:debugging#addons`  
+This will open a remote debugger. Make sure this is enabled from your Developer Tools
+![](https://tenryuu.blob.core.windows.net/astrid/17-05-25_08-39-04.png)
