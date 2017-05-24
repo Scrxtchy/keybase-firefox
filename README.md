@@ -6,19 +6,19 @@ simple hack to get it working (Perhaps, this goes untested. Made entirely off th
 	* Linux
 
 	```
-	/usr/lib/mozilla/native-messaging-hosts/Keybase
+	/usr/lib/mozilla/native-messaging-hosts/Keybase.json
 	-- OR --
-	/usr/lib64/mozilla/native-messaging-hosts/Keybase
+	/usr/lib64/mozilla/native-messaging-hosts/Keybase.json
 	-- OR --
-	~/.mozilla/native-messaging-hosts/Keybase
+	~/.mozilla/native-messaging-hosts/Keybase.json
 	```
 
 	* OSX
 
 	```
-	/Library/Application Support/Mozilla/NativeMessagingHosts/Keybase
+	/Library/Application Support/Mozilla/NativeMessagingHosts/Keybase.json
 	-- OR -- 
-	~/Library/Application Support/Mozilla/NativeMessagingHosts/Keybase
+	~/Library/Application Support/Mozilla/NativeMessagingHosts/Keybase.json
 	```
 
 	* Windows - Have the default value of this key point to `\path\to\keybase\kbnm.json`
